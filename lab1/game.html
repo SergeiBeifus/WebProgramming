@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="text/html; charset=utf-8"/>
+    <title>Онлайн шашки</title>
+</head>
+<body>
+<header>
+    <h1>Правила игры в шашки</h1>
+    <div>
+        <a href="index.html">Главная</a>
+        <a href="rules.html">Правила</a>
+        <a href="game.html">Игра</a>
+        <a href="contact.html">Контакты</a>
+    </div>
+</header>
+
+<main>
+    <section>
+        <table cellpadding="0" cellspacing="0"
+               style="line-height: 0;
+               background: rgb(31, 31, 31);
+               font-size: 88%;
+               border: 0px;
+               padding: 0px;
+               margin: auto;"
+        >
+            <tbody>
+            <tr style="vertical-align:middle">
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;">
+                    <span typeof="mw:File">
+                        <a
+                                href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru"
+                                class="mw-file-description"
+                                title="a8">
+                            <img alt="a8"
+                                 src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                 srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                 data-file-width="45" data-file-height="45">
+                        </a>
+                </span>
+                </td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="b8 чёрная шашка"><img alt="b8 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="c8"><img alt="c8"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="d8 чёрная шашка"><img alt="d8 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="e8"><img alt="e8"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="f8 чёрная шашка"><img alt="f8 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="g8"><img alt="g8"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="h8 чёрная шашка"><img alt="h8 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+            </tr>
+            <tr style="vertical-align:middle">
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="a7 чёрная шашка"><img alt="a7 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="b7"><img alt="b7"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="c7 чёрная шашка"><img alt="c7 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="d7"><img alt="d7"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="e7 чёрная шашка"><img alt="e7 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="f7"><img alt="f7"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="g7 чёрная шашка"><img alt="g7 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="h7"><img alt="h7"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+            </tr>
+            <tr style="vertical-align:middle">
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="a6"><img alt="a6"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="b6 чёрная шашка"><img alt="b6 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="c6"><img alt="c6"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="d6 чёрная шашка"><img alt="d6 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="e6"><img alt="e6"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="f6 чёрная шашка"><img alt="f6 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="g6"><img alt="g6"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j0d45.svg?uselang=ru" class="mw-file-description"
+                        title="h6 чёрная шашка"><img alt="h6 чёрная шашка"
+                                                     src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/26px-Chess_j0d45.svg.png"
+                                                     decoding="async" width="26" height="26" class="mw-file-element"
+                                                     srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/39px-Chess_j0d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Chess_j0d45.svg/52px-Chess_j0d45.svg.png 2x"
+                                                     data-file-width="45" data-file-height="45"></a></span></td>
+            </tr>
+            <tr style="vertical-align:middle">
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_d45.svg?uselang=ru" class="mw-file-description"
+                        title="a5"><img alt="a5"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/26px-Chess_d45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/39px-Chess_d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/52px-Chess_d45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="b5"><img alt="b5"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_d45.svg?uselang=ru" class="mw-file-description"
+                        title="c5"><img alt="c5"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/26px-Chess_d45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/39px-Chess_d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/52px-Chess_d45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="d5"><img alt="d5"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_d45.svg?uselang=ru" class="mw-file-description"
+                        title="e5"><img alt="e5"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/26px-Chess_d45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/39px-Chess_d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/52px-Chess_d45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="f5"><img alt="f5"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_d45.svg?uselang=ru" class="mw-file-description"
+                        title="g5"><img alt="g5"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/26px-Chess_d45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/39px-Chess_d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/52px-Chess_d45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="h5"><img alt="h5"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+            </tr>
+            <tr style="vertical-align:middle">
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="a4"><img alt="a4"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_d45.svg?uselang=ru" class="mw-file-description"
+                        title="b4"><img alt="b4"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/26px-Chess_d45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/39px-Chess_d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/52px-Chess_d45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="c4"><img alt="c4"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_d45.svg?uselang=ru" class="mw-file-description"
+                        title="d4"><img alt="d4"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/26px-Chess_d45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/39px-Chess_d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/52px-Chess_d45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="e4"><img alt="e4"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_d45.svg?uselang=ru" class="mw-file-description"
+                        title="f4"><img alt="f4"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/26px-Chess_d45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/39px-Chess_d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/52px-Chess_d45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="g4"><img alt="g4"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_d45.svg?uselang=ru" class="mw-file-description"
+                        title="h4"><img alt="h4"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/26px-Chess_d45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/39px-Chess_d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/Chess_d45.svg/52px-Chess_d45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+            </tr>
+            <tr style="vertical-align:middle">
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="a3 белая шашка"><img alt="a3 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="b3"><img alt="b3"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="c3 белая шашка"><img alt="c3 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="d3"><img alt="d3"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="e3 белая шашка"><img alt="e3 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="f3"><img alt="f3"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="g3 белая шашка"><img alt="g3 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="h3"><img alt="h3"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+            </tr>
+            <tr style="vertical-align:middle">
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="a2"><img alt="a2"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="b2 белая шашка"><img alt="b2 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="c2"><img alt="c2"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="d2 белая шашка"><img alt="d2 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="e2"><img alt="e2"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="f2 белая шашка"><img alt="f2 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="g2"><img alt="g2"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="h2 белая шашка"><img alt="h2 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+            </tr>
+            <tr style="vertical-align:middle">
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="a1 белая шашка"><img alt="a1 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="b1"><img alt="b1"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="c1 белая шашка"><img alt="c1 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="d1"><img alt="d1"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="e1 белая шашка"><img alt="e1 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="f1"><img alt="f1"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #d18b47;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_j1d45.svg?uselang=ru" class="mw-file-description"
+                        title="g1 белая шашка"><img alt="g1 белая шашка"
+                                                    src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/26px-Chess_j1d45.svg.png"
+                                                    decoding="async" width="26" height="26" class="mw-file-element"
+                                                    srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/39px-Chess_j1d45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Chess_j1d45.svg/52px-Chess_j1d45.svg.png 2x"
+                                                    data-file-width="45" data-file-height="45"></a></span></td>
+                <td style="padding:0; vertical-align:inherit; background-color: #ffce9e;"><span typeof="mw:File"><a
+                        href="//commons.wikimedia.org/wiki/File:Chess_l45.svg?uselang=ru" class="mw-file-description"
+                        title="h1"><img alt="h1"
+                                        src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/26px-Chess_l45.svg.png"
+                                        decoding="async" width="26" height="26" class="mw-file-element"
+                                        srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/39px-Chess_l45.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Chess_l45.svg/52px-Chess_l45.svg.png 2x"
+                                        data-file-width="45" data-file-height="45"></a></span></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 OOO BeifusTech. Все права защищены.</p>
+    <p>Свяжитесь с нами по адресу: 0legdamagarov@gmail.com</p>
+</footer>
+</body>
+</html>
